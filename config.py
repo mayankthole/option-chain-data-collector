@@ -12,16 +12,16 @@ START_TIME_OFFSET = 1 # Number of seconds after each minute to start data collec
 INDEX_OPTIONS = {
     "NIFTY": {
         "exchange": "INDEX",
-        "num_expiries": 3,
+        "num_expiries": 2,
         "num_strikes": 25,  # Number of strikes above and below ATM
         "strike_gap": 50,  # Gap between strikes
     },
-    "BANKNIFTY": {
-        "exchange": "INDEX",
-        "num_expiries": 1,
-        "num_strikes": 20,  # Number of strikes above and below ATM
-        "strike_gap": 100,  # Gap between strikes
-    },
+    # "BANKNIFTY": {
+    #     "exchange": "INDEX",
+    #     "num_expiries": 1,
+    #     "num_strikes": 20,  # Number of strikes above and below ATM
+    #     "strike_gap": 100,  # Gap between strikes
+    # },
     "SENSEX": {
         "exchange": "INDEX",
         "num_expiries": 1,
@@ -39,12 +39,12 @@ STOCK_OPTIONS = {
         "num_strikes": 20,  # Number of strikes above and below ATM
         "strike_gap": 10,  # Gap between strikes
     },
-    "KOTAKBANK": {
-        "exchange": "NSE",
-        "num_expiries": 1,
-        "num_strikes": 20,  # Number of strikes above and below ATM
-        "strike_gap": 20,  # Gap between strikes
-    },
+    # "KOTAKBANK": {
+    #     "exchange": "NSE",
+    #     "num_expiries": 1,
+    #     "num_strikes": 20,  # Number of strikes above and below ATM
+    #     "strike_gap": 20,  # Gap between strikes
+    # },
     #     "INFY": {
     #     "exchange": "NSE",
     #     "num_expiries": 50,
