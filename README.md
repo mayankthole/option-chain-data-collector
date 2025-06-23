@@ -4,7 +4,7 @@ A robust system for collecting and storing NIFTY, BANKNIFTY, and other option ch
 
 ## Features
 
-- Automatic data collection during market hours (7:34:00 AM to 3:30:00 PM)
+- Automatic data collection during market hours ((09:15:00 AM to 3:30:00 PM)
 - Handles multiple symbols: NIFTY, BANKNIFTY, SENSEX, RELIANCE, KOTAKBANK, INFY
 - Automatic weekend and holiday handling
 - Robust error handling and recovery
