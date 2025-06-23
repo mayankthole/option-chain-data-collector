@@ -13,19 +13,19 @@ INDEX_OPTIONS = {
     "NIFTY": {
         "exchange": "INDEX",
         "num_expiries": 3,
-        "num_strikes": 50,  # Number of strikes above and below ATM
+        "num_strikes": 25,  # Number of strikes above and below ATM
         "strike_gap": 50,  # Gap between strikes
     },
     "BANKNIFTY": {
         "exchange": "INDEX",
         "num_expiries": 1,
-        "num_strikes": 50,  # Number of strikes above and below ATM
+        "num_strikes": 20,  # Number of strikes above and below ATM
         "strike_gap": 100,  # Gap between strikes
     },
     "SENSEX": {
         "exchange": "INDEX",
         "num_expiries": 1,
-        "num_strikes": 50,  # Number of strikes above and below ATM
+        "num_strikes": 20,  # Number of strikes above and below ATM
         "strike_gap": 100,  # Gap between strikes
     },
 
@@ -36,13 +36,13 @@ STOCK_OPTIONS = {
     "RELIANCE": {
         "exchange": "NSE",
         "num_expiries": 1,
-        "num_strikes": 50,  # Number of strikes above and below ATM
+        "num_strikes": 20,  # Number of strikes above and below ATM
         "strike_gap": 10,  # Gap between strikes
     },
     "KOTAKBANK": {
         "exchange": "NSE",
         "num_expiries": 1,
-        "num_strikes": 50,  # Number of strikes above and below ATM
+        "num_strikes": 20,  # Number of strikes above and below ATM
         "strike_gap": 20,  # Gap between strikes
     },
     #     "INFY": {
