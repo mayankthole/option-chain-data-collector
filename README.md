@@ -1,5 +1,7 @@
 # Option Chain Data Collector
 
+**Just enter the credentials in the `config.py` file and run the `main.py` file. That's all you need to do!**
+
 A robust system for collecting and storing NIFTY, BANKNIFTY, and other option chain data in real-time using PostgreSQL AWS RDS.
 
 ## Features
